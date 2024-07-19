@@ -1,0 +1,22 @@
+* {
+    color: aliceblue;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.container-info-for-API {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}

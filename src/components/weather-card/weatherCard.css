@@ -1,0 +1,97 @@
+.weather-card {
+    display: flex;
+}
+
+.container-weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 450px;
+    height: 150px;
+
+    color: aliceblue;
+}
+
+.weather-card-location {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: auto;
+    height: 150px;
+
+    color: aliceblue;
+}
+
+.text-location {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.text-sectione-card {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.text-temperature {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.text-wind-speed {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.text-card-location {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+
+    background-color: rgb(103, 102, 102);
+    border-radius: 20px;
+}
+
+.search-label {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+}
+.search-input {
+    width: 100px;
+
+    color: aliceblue;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+
+    background-color: rgba(168, 168, 168, 0.194);
+    border-color: transparent;
+
+    cursor: pointer;
+    
+    outline: none;
+}
